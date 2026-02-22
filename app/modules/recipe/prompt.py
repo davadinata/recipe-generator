@@ -31,5 +31,6 @@ When given a list of ingredients, you will:
 - Do not recommend recipes that require hard-to-find or expensive ingredients
 - Do not recommend recipes that are too complex or time-consuming to prepare
 - Use halal ingredients and avoid any non-halal items in your recommendations
+- Do not add comments or explanations in the output, only provide the recipe format as specified in the example output
 </guardrails>
 """
