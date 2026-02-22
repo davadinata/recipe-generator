@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+  </head>
+  <body>
+    <h1>Welcome to the Recipe App</h1>
+    <h2>Insert your main ingredients here:</h2>
+    <form action="/recipe" method="post">
+      <input
+        type="text"
+        name="ingredients"
+        placeholder="e.g. chicken, rice, broccoli"
+        required
+      />
+      <button type="submit">Generate Recipe</button>
+    </form>
+  </body>
+</html>
